@@ -1,0 +1,77 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    flex: 0.2;
+    justify-content: space-between;
+    background-color: pink;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 15px;
+    text-transform: uppercase;
+
+}
+nav ul li a{
+    color: rgb(2, 2, 242);
+}
+.ex{
+    padding: 10px;
+    display: flex;
+    background: url(flo.jpg);
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    background: cover;
+}
+button{
+    border:none;
+    color: blue;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 25px;
+
+}
+.container{
+    display: flex;
+    background-color: aliceblue;
+    flex: 6;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.b{
+    background-color: aquamarine;
+    width: 32%;
+    border: 2px solid rgb(231, 197, 134);
+
+}
+.content{
+    background-color: palegoldenrod;
+    flex: 3;
+    display: flex;
+
+}
+.box-right
+.box-left{
+    border: 2px solid orange;
+    flex: 1;
+    background-color: white;
+    margin: 5px;
+    padding: 50px;
+}
+   
+

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: rgb(218, 76, 32);
+    flex: 0.6;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 14px;
+    text-transform: uppercase;
+}
+nav ul li a{
+    color: white;
+}
+header{
+    background-color: rgb(255, 211, 14);
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/flo.jpg);
+    background-position: 90% ;
+    background-size: cover;
+}
+.text{
+    width: 50%;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+button{
+    border: none;
+    padding: 10px;
+    width: 250px;
+    background: rgb(218, 15, 15);
+    color: white;
+    border-radius: 40px;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.container{
+    background-color: rgb(255, 23, 23);
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.content{
+    background-color: palegoldenrod;
+    flex: 3;
+    display: flex;
+}
+.content-left, 
+.content-right{
+    border: 2px solid orange;
+    flex: 1;
+    background-color: white;
+    margin: 5px;
+    padding: 50px;
+}
+.box{
+    width: 32%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(199, 101, 101);
+}
+
