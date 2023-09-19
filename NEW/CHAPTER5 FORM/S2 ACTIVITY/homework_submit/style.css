@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(49, 87, 133);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 75vh;
+    height: 95vh;
+    background: white;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.header{
+    background: rgb(228, 228, 228);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    border-radius: 12px 12px 0px 0px;
+}
+.container{
+    flex: 8;
+    padding: 20px;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container label{
+    color: rgb(38, 230, 237);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+input{
+    border: 1px solid gainsboro;
+    padding: 4px 10px ;
+}
+.name{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.password-confirm {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.Gender-hobby{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.gender{
+    width: 49%;
+    /* background: red; */
+}
+.hobbies{
+    width: 49%;
+   
+}
+.hobbies label {
+    font-size: 17px;
+}
+.gender label{
+    font-size: 17px;
+}
+.source-of-income{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.range{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background: rgb(25, 203, 195);
+    border: none;
+    border-radius: 3px;
+    width: 29px;
+    height: 20px;
+}
+.upload_file-and_age{
+    display: flex;
+    gap: 10px;
+    border: none;
+}
+.upload_profile_picture{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+input[type="file"]{
+    width: 90%;
+    font-size: 12px;
+    border: none;
+}
+
+p{
+    font-size: 5px;
+}
+.age{
+    display: flex;
+    flex-direction: column;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+
+}
+textarea{
+    border: 1px solid rgb(201, 201, 201);
+}
+.footer{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+    padding: 10px;
+    background: rgb(215, 215, 215);
+    border-radius: 0px 0px 12px 12px;
+}
+
+button:nth-child(1){
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

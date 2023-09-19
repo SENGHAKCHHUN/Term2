@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+.container{
+    background: rgb(73, 73, 90);
+    color: white;
+    padding: 10px;
+    width: 400px;
+    font-family: sans-serif;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 280px;
+}
+.register{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+}
+.register p{
+    padding: 5px;
+    margin: 0;
+    width: 45%;
+    text-align: center;
+}
+.sing-up{
+    background: rgb(109, 208, 182);
+}
+.Login{
+    background: gray;
+}
+h3{
+    padding: 15px;
+    text-align: center;
+}
+.if{
+    background: rgb(73, 73, 90);
+    color: rgb(255, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+.name{
+    background: rgb(73, 73, 90);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.name input{
+    background: rgb(73, 73, 90);
+    border: 1px solid gray;
+    height: 21px;
+    width: 30vh;
+    
+}
+.Email input{
+    width: 65vh;
+    margin-top: 10px;
+    background: rgb(73, 73, 90);
+    border: 1px solid gray;
+    height: 21px;
+
+}
+.password input{
+    width: 65vh;
+    background: rgb(73, 73, 90);
+    border: 1px solid gray;
+    margin-top: 10px;
+    height: 21px;
+}
+button{
+    background: rgb(131, 224, 227);
+    width: 91%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 17px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+

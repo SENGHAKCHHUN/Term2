@@ -1,0 +1,40 @@
+*{
+    box-sizing: border border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(95, 86, 88);
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: none;
+}
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    padding: 15px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+nav, article{
+    width: 100%;
+    height: auto;
+}
+

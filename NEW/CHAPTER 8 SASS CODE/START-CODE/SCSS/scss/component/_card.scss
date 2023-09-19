@@ -1,0 +1,14 @@
+@import "./variable";
+.card {
+    border: 1px solid $input;
+    padding: 10px;
+
+    .card-header {
+        text-transform: uppercase;
+        border-bottom: 1px solid $input;
+    }
+    .active {
+        background: $active;
+    }
+}
+

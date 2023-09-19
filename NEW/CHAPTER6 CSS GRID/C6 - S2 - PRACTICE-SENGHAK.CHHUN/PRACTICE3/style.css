@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.container-grid{
+    grid-template-columns: repeat(3 ,1fr);
+    display: grid;
+    grid-template-areas: 
+    'item1 item1 item1'
+    'item2 item3 item3'
+    'item2 item4 item5'
+    'item2 item6 item6';
+    
+}
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6{
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(24, 227, 220);
+}
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+}
+.item5{
+    grid-area: item5;
+}
+.item6{
+    grid-area: item6;
+}

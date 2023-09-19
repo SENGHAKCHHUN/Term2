@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+form{
+    margin: auto;
+    width: 100vh;
+}
+.container{
+    display: flex;
+    margin-top: 20px;
+    height: 80vh;
+    width: 100vh;
+}
+.content-left{
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+    width: 30vh;
+    background: rgb(25, 142, 122);
+}
+img{
+    width: 90px;
+    margin: 10px 20px 15px 42px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+p{
+    padding: 3px;
+    text-align: center;
+    color: white;
+}
+.content-right{
+    border: 2px solid rgb(237, 231, 231);
+    border-radius: 0px 20px  20px 0px;
+    border-left: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    gap: 20px;
+}
+h2{
+    color: rgb(28, 202, 202);
+    text-align: center;
+    margin: 24px;
+}
+input[type="text"],
+input[type="gmail"],
+input[type="password"]{
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.click{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+button{
+    padding: 10px;
+    width: 40vh;
+    background: white;
+    border-radius: 20px;
+    color: rgb(25, 142, 122);
+    border: 2px solid rgb(25, 142, 122);
+}
+span{
+    display: flex;
+    
+}
+.black{
+    color: black;
+}
+.blue{
+    color: blue;
+}
+a:hover{
+    color: rgb(103, 130, 151);
+}

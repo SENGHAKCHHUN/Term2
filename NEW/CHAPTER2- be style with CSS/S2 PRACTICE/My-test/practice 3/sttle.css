@@ -1,0 +1,31 @@
+.khmer{
+    background-color: rgba(0, 97, 223);
+    width: 300px;
+    height: 100px;
+}
+.mak{
+    background-color:rgb(180, 0, 225);
+    width: 290px;
+    height: 88px;
+}
+.love{
+    background-color: rgb(0, 208, 227);
+    width: 280px;
+    height: 77px;
+}
+.hak{
+    background-color: rgb(88, 229, 0);
+    width: 270px;
+    height: 66px;
+}
+.money{
+    background-color: rgb(231, 219, 50)
+    width: 250px;
+    height: 50px;
+}
+div{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    
+}

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background: #000;
+}
+form{
+    background: white;
+    margin: auto;
+    width: 100vh;
+    height: 90vh;
+    gap: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 10px;
+    gap: 20px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-transform: uppercase;
+    color: rgb(33, 144, 163);
+}
+.usernames,
+.password{
+    display: flex;
+    gap: 10px;
+
+}
+.usernames input,
+.email input,
+.password input{
+    width: 96.2%;
+    padding: 9px;
+}
+.ontime{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.gender{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.date input{
+    width: 96.5%;
+    padding: 8px;
+}
+.outtime{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.file{
+    border: 1px solid gray;
+    padding: 8px;
+}
+input[type="select"]{
+    background: yellow;
+    
+}
+#select{
+    width: 100%;
+    padding: 8px;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background:rgb(33, 144, 163);
+    text-transform: uppercase;
+    color: white;
+    font-size: 19px;
+}
+
+

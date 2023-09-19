@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right{
+    width: 12%;
+}
+ul{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li{
+    margin-left: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color:black;
+    font-family:sans-serif;
+}
+div{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    border:none;
+    color:black;
+    background-color: white;
+}
+card, button{
+    padding: 10px;
+    border-radius: 7px;
+}
+#btn-orange{
+    background-color: orange;
+    border-radius: 20px;
+}
+#btn-purple{
+    background-color: purple;
+    border-radius: 20px;
+}
+#btn-teal{
+    background-color: teal;
+    border-radius: 20px;
+}
+
+

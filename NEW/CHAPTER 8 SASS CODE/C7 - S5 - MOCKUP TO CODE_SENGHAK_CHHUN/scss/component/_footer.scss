@@ -1,0 +1,50 @@
+@import "./group-mixin";
+@import "./group-verible";
+footer{
+    padding-top: 50px;
+    background: $black;
+    color: $white;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+}
+footer {
+    li{
+        padding-top:5px ;
+        list-style: none;
+    }
+}
+footer {
+    span{
+    color: $orange;
+    padding-bottom: 5px;
+    }
+}
+footer{
+     ul{
+         li{ 
+            a{
+                color: $white;
+                text-decoration: none;
+                font-size: 17px;
+            }
+        }
+    }
+}
+footer {
+    a:hover{
+    color:$orange;
+    }
+}
+h3{
+    padding: 5px 0;
+}
+footer {
+    ul{
+        li {
+            fa{
+                background: black;
+            }
+        }
+    }
+}

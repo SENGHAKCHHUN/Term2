@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-Form2-Senghak</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <form action="Create_Account">
+        <nav class="header">
+            <h2>Create Account</h2>
+        </nav>
+        <div class="container">
+            <div class="name">
+                <div class="Firstname">
+                    <label for="name">First name*</label>
+                    <input type="text" placeholder="enter your first name">
+                </div>
+                <div class="Lastname">
+                    <label for="name">Last name</label>
+                    <input type="text" placeholder="enter your last name">
+                </div>
+            </div>
+            <div class="email">
+                <label for="email_user">Email*</label>
+                <input type="email" placeholder="enter your email">
+            </div>
+            <div class="password-confirm">
+                <div class="pw">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="enter your email">
+                </div>
+                <div class="confirm">
+                    <label for="password">Confirm Password</label>
+                    <input type="password" placeholder="enter your password again">
+                </div>
+            </div>
+            <div class="Gender-hobby">
+                <div class="gender">
+                    <label for="Gender">Gender</label>
+                    <input type="radio" name="Gender" value="Male">Male
+                    <input type="radio" name="Gender" value="Female">Female
+                </div>
+                <div class="hobbies">
+                    <label for="Hobbies">Hobbies</label>
+                    <input type="checkbox">Music
+                    <input type="checkbox">Sports
+                    <input type="checkbox">Travel
+                    <input type="checkbox">Movies
+                </div>
+            </div>
+            <div class="source-of-income">
+                <div class="suorce">
+                    <label for="">Source of Income</label>
+                    <input type="number" ​​​ placeholder="Employed">
+                </div>
+                <div class="income">
+                    <label for="Income">Income</label>
+                    <div class="range">
+                        <input type="range">
+                        <button>20K</button>
+                    </div>
+                </div>
+            </div>
+            <div class="upload_file-and_age">
+                <div class="upload_profile_picture">
+                    <label for="Upload profile picture">Upload profile picture</label>
+                    <input type="file" placeholder="No file upload">
+                </div>
+                <div class="age">
+                    <label for="Age">Age</label>
+                    <input type="number">
+                </div>
+            </div>
+            <div class="bio">
+                <label for="Bio">Bio</label>
+                <textarea name="Title" id="Bio" cols="30" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="footer">
+            <button>Create</button>
+        </div>
+    </form>
+</body>
+
+</html>

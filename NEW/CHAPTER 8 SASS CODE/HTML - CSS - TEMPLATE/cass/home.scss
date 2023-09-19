@@ -1,0 +1,24 @@
+@import "main";
+@import "conponent/variarble";
+@import "conponent/group-minus";
+
+.main-container{
+    height: 75vh;
+    display: flex;
+}
+aside{
+    @include text-center;
+    @include formarted-text;
+    flex: 1;
+    background: $maincolor;
+    border: 1px solid $teal-color;
+
+}
+.main-content{
+    @include text-center;
+    @include formarted-text;
+    flex:3;
+    background: $maincolor;
+    border: 1px solid $teal-color;
+    
+}

@@ -1,0 +1,29 @@
+body{
+    color: blue;
+    background-color: black;
+}
+ul{
+    color: green;
+}
+div > ul > li{
+    color: red;
+}
+div + ul{
+    color: aliceblue;
+}
+body ul:nth-child(2){
+    color: aqua;
+}
+body div ul li:nth-child(1){
+    color: white;
+}
+body div ul li:nth-child(2){
+    color: burlywood;
+}
+body div ul li:nth-child(3){
+    color: blue;
+}
+*{
+    color: black;
+    background-color: aqua;
+}

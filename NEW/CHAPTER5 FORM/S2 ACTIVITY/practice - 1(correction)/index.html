@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice 1</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <form>
+        <h1>Personal Information</h1>
+        <div class="form-elements">
+            <div class="user-name">
+                <label>Your Name:</label>
+                <input type="text">
+            </div>
+            <div class="user-gender">
+                <label>Gender:</label>
+                <div class="user-gender-choices">
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </div>
+            </div>
+            <div class="user-favorite">
+                <label>Your Favorite:</label>
+                <div class="user-favorite-choices">
+                    <div class="user-choice">
+                        <input type="checkbox" name="favorite" value="cooking">Cooking
+                    </div>
+                    <div class="user-choice">
+                        <input type="checkbox" name="favorite" value="singing" checked>Singing
+                    </div>
+                    <div class="user-choice">
+                        <input type="checkbox" name="favorite" value="dancing">Dancing
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="country">
+                <label for="Your Country">Your Country</label>
+                <select name="Option" id="">
+                    <option value="Thailand">Thailand</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Laos">Laos</option>
+                    <option value="china">china</option>
+                </select>
+            </div>
+
+            <div class="Address">
+                <label for="Address"> Address</label>
+                <textarea name="Address" id="" cols="10" rows="5"></textarea>
+            </div>
+            <input type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

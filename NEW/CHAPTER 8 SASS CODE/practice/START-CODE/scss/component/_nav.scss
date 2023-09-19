@@ -1,0 +1,70 @@
+@import "variable";
+@import "group-mixin";
+
+
+nav {
+    height: 10vh;
+    background: $sub-color2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    border-bottom: 2px solid $main-color;
+}
+  
+nav {
+    .logo {
+        width: 55px;
+        height: 55px;
+        background: $main-color;
+        color: $sub-color1;
+        @include centered;
+        border-radius: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+  
+nav {
+    ul {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+  
+nav {
+    ul {
+        li {
+            background: $main-color;
+            padding: 10px 20px;
+            border: 1px solid $sub-color1;
+            border-radius: 5px;
+            list-style-type: none;
+            cursor: pointer;
+        }
+    }
+}
+  
+nav{
+    ul{
+        li:hover {
+            background: $sub-color1;
+            border: 1px solid $main-color;
+            color: $main-color;
+        }
+    }
+  }
+  
+nav{
+     ul {
+        a {
+            color: $sub-color1;
+            font-weight: bolder;
+            text: {
+                transform: uppercase;
+                decoration: none;
+            }
+        }
+     }
+}

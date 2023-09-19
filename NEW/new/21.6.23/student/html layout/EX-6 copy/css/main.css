@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+nav{
+    background: green;
+    flex: 0.5;
+}
+.menu{
+    background: rgb(0, 0, 0);
+    flex: 0.3;
+    color: white;
+}
+.container{
+    display: flex;
+    flex: 5;
+}
+aside{
+    background-color: goldenrod;
+    flex: 1;
+}
+.content{
+    background: greenyellow;
+    flex: 3;
+}
+footer{
+    background: red;
+    flex: 0.3;
+}

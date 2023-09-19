@@ -1,0 +1,23 @@
+body{
+    background-image:url(pic.avif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    border-collapse: collapse;
+    margin: 100px 100px 0px 100px;
+    
+}
+tr, td, th{
+    padding: 10Px;
+    border-top: 1px solid white;
+    width: 240px;
+    text-align: center;
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(110, 102, 102);
+}
+
+
+

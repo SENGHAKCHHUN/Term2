@@ -1,0 +1,40 @@
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+}
+tr,
+td,
+th{
+    border: 1px solid ;
+    padding: 10px;
+    /* border-bottom: 1px solid; */
+}
+th{
+    text-transform: uppercase;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+tbody tr:hover{
+    background-color: rgb(201, 199, 199);
+    cursor: pointer;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(202, 193, 195);
+}
+caption{
+    background-color: orange;
+    padding: 12px;
+    color: red;
+    text-transform: uppercase;
+}
+
+
+

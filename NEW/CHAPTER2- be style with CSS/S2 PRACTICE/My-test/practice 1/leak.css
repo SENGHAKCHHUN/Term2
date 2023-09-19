@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(255, 228, 196, 0.638);
+}
+h1{
+    color: rgb(0, 68, 255);
+}
+h2{
+    color: rgb(0, 68, 255);
+}
+p{
+    color: rgb(0, 68, 255);
+}
+ul{
+    background-color: rgb(255, 224, 47);
+    color: rgb(255, 0, 0);
+}
+q{
+    font-family: fantasy;
+}

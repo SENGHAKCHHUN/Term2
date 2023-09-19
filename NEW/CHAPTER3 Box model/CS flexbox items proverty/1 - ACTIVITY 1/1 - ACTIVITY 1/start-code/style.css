@@ -1,0 +1,59 @@
+body {
+  margin: 10px;
+  font-family: Verdana;
+}
+
+.container {
+  border: 2px solid rgb(244, 89, 89);
+  display: flex;
+  flex-direction: column-reverse;
+}
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  border: 2px solid rgb(10, 73, 246);
+}
+.about{
+  background-color: bisque;
+
+}
+.services{
+  background-color: aquamarine;
+}
+/* .services {
+  margin-left: auto;
+} */
+
+/* .about{
+  margin-left: auto;
+} */
+
+/* .container > div{
+  flex:1;
+} */
+
+/* .home, .about {
+  flex: 1;
+}
+.services{
+  flex:2;
+} */
+
+/* .container > div{
+  flex-basis: 300px;
+} 
+.about {
+  flex-shrink: 0;
+} */
+/* 
+.container > div{
+  flex-basis: 300px;
+}
+
+.about{
+  flex-grow: 1;
+}
+
+
+

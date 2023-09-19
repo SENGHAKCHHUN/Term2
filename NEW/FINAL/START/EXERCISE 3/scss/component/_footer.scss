@@ -1,0 +1,7 @@
+@import "./variable";
+@import "./group_mixins";
+footer {
+    background: $footer-bg;
+    grid-area: footer;
+    @include formated;
+}

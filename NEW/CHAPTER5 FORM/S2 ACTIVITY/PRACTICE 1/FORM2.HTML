@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEESION2 FORM</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            background: rgb(171, 239, 171);
+            margin: auto;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        input[type="text"]{
+            background: red;
+            border: 5px solid rgb(58, 231, 231);
+        }
+        .input{
+            margin-left: 70px;
+        }
+        input[type="submit"]{
+            background: rgb(30, 185, 194);
+            border: 5px solid red;
+            margin-top: 12px;
+            margin-left: 120px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form action="personal information">
+        <h2>personal information</h2>
+        <div>
+            <label for="Your Name">Your name</label>
+            <input type="text" name="Name" value="your name">
+        </div>
+        <div class="gender">
+            <label for="Gender">Gender</label>
+            <input type="radio" name="Gender" value="Male"> Male
+            <input type="radio" name="Gender" value="Female">Female
+        </div>
+        <div class="your_Favorite">
+            <label for="your_Favorite">Your Favorite</label>
+            <div class="input">
+                <input type="checkbox" name="happy" value="Cooking">Cooking <br>
+                <input type="checkbox" name="happy" value="Singer">Singer <br>
+                <input type="checkbox" name="happy" value="Dancing">Dancing
+            </div>
+        </div>
+        <input type="submit" name="send" value="Send" class="submit">
+    </form>
+</body>
+
+</html>

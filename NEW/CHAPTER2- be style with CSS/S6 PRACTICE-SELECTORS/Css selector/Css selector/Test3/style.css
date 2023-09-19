@@ -1,0 +1,32 @@
+body{
+    background-color: plum;
+}
+body ul li:nth-child(1){
+    color: brown;
+}
+body ul li:nth-child(2){
+    color: green;
+}
+body ul li:nth-child(3){
+    color: azure;
+}
+h1{
+    color: grey;
+}
+[href]{
+  text-decoration: none;  
+}
+.text{
+    padding: 10px;
+    border: 15px solid gray;  
+}
+.pwd{
+    padding: 10px;
+    border: 15px solid orangered;
+}
+::selection{
+    background-color: red;
+}
+button{
+    cursor: cell;
+}

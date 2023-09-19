@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(three-flower-1217421_1280.webp);
+    background-size: cover;
+    background-position:center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+.menu-bar{
+    background: green;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.active, .menu-bar ul li:hover{
+    border-radius: 3px;
+    background: #2bab0d;
+}
+.menu-bar .fa{
+    margin-right: 10px;
+}
+.sum-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sum-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sum-menu-1 ul{
+    display: block;
+    margin: 10px;
+    border: 1px ;
+}
+.menu-bar ul li:hover .sum-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sum-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 140px;
+    background: rgb(0, 100, 0);
+}
+
+
+
+
+

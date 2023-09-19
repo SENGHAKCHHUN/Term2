@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+form{
+    margin: auto;
+    width: 100vh;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    width: 100vh;
+    height: 65vh;
+
+}
+.content-left{
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+    width: 30vh;
+    background: rgb(25, 142, 122);
+}
+img{
+    width: 90px;
+    margin: 10px 20px 15px 42px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+p{
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+.content-right{
+    border: 2px solid rgb(197, 193, 193);
+    border-radius: 0px 14px 14px 0px;
+    width: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-left: none;
+    
+    
+}
+input[type="text"],
+input[type="password"]{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    font-size:14px ;
+}
+h2{
+    color:rgb(71, 175, 175) ;
+    text-align: center;
+    margin: 24px ;
+}
+.checkbox{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+button{
+    font-size: 16px;
+    background: white;
+    width: 65%;
+    padding: 7px;
+    border-radius: 20px;
+    border: 2px solid rgb(71, 175, 175);
+    color: rgb(71, 175, 175);
+    
+}
+.click{
+    display: flex;
+    justify-content: center;
+}
+span{
+    display: flex;
+}
+.black{
+    color: black;
+    text-align: left;
+}
+.blue{
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    color: rgb(103, 130, 151);
+}

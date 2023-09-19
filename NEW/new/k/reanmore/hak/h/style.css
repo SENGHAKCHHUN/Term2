@@ -1,0 +1,31 @@
+.Hak{
+    height: 600px;
+    width: 300px;
+    background-color: black;
+}
+.khmer{
+    height: 490px;
+    width: 290;
+    background-color: aliceblue;
+}
+.maly{
+    height: 480;
+    width: 680;
+    background-color: antiquewhite;
+}
+.rith{
+    height: 470px;
+    width: 670px;
+    background-color: aqua;
+}
+#money{
+    height: 460px;
+    width: 660px;
+    background-color: aquamarine;
+}
+#fruit{
+    height: 650px;
+    width: 250px;
+    background-color: bisque;
+    color: yellow;
+}

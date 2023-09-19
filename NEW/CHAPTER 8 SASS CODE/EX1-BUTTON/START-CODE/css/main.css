@@ -1,0 +1,59 @@
+.btn-primary {
+  background: #0091ff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.btn-secondary {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+  background: #a8a9aa;
+}
+
+.btn-warning {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+  background: #ffbb00;
+}
+
+.btn-success {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+  background: #0fc975;
+}
+
+.btn-dark {
+  background: #030303;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.btn-danger {
+  background: #e30a00;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+}/*# sourceMappingURL=main.css.map */

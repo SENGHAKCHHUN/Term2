@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.grid-container{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    'header header header'
+    'left right-top address'
+    'left right-button address'
+    'left footer address';
+
+}
+.header,
+.left,
+.right-top,
+.right-button,
+.footer,
+.address{
+    padding: 50px;
+    background: rgb(36, 227, 77);
+}
+.header{
+    grid-area: header;
+}
+.left{
+    grid-area: left;
+}
+.right-top{
+    grid-area: right-top;
+}
+.right-button{
+    grid-area: right-button;
+}
+.footer{
+    grid-area: footer;
+}
+.address{
+    grid-area: address;
+}
+

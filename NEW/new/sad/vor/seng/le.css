@@ -1,0 +1,20 @@
+body{
+    /* display: flex; */
+    margin: 0;
+    flex-direction: column;
+    flex: 5;
+    ;
+
+}
+.container{
+    background-color: aliceblue;
+    flex: 3;
+}
+nav{
+    background-color: palegreen;
+    flex: 1;
+}
+footer{
+    background-color: azure;
+    flex: 1;
+}

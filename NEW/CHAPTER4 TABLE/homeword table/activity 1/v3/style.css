@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+caption{
+    background-color: aqua;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr,th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead{
+    background-color: aqua;
+    text-align: left;
+    color: white;
+}

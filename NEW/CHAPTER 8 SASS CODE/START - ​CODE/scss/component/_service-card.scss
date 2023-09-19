@@ -1,0 +1,32 @@
+@import "./group-mixin";
+@import "./variable";
+
+.service {
+    @include link-center;
+    width: 27%;
+    align-items: flex-start;
+    border: 1px solid $sub-color4;
+    border-radius: $radiusValue;
+  }
+  
+.service {
+    img {
+        width: 100px;
+        z-index: 1;
+        position: absolute;
+        margin: 0;
+    }
+}
+  
+.service {
+    .service-content {
+        background: $sub-color4;
+        text-align: center;
+        padding: 20px;
+        padding-top: 50px;
+        margin-top: 70px;
+        border-radius: 10px;
+        
+    }
+}
+  

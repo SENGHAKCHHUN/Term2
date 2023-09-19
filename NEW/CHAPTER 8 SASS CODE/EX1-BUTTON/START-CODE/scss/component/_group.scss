@@ -1,0 +1,9 @@
+@import "./variable";
+@mixin card{
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+    color: $font-color;
+    border-radius: 4px;
+    width: 100px;
+}

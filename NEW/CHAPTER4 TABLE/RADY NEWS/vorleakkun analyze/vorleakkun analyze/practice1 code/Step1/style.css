@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ____nav______ */
+nav{
+    background-color: rgb(79, 175, 79);
+    flex: 0.5;
+    display: flex;
+}
+.Nav-left{
+    background-color: aqua;
+    flex: 1;
+}
+.Nav-right{
+    background-color: rgb(127, 178, 255);
+    flex: 1;
+}
+
+
+
+
+/* ______header_______ */
+header{
+    background-color: rgb(41, 193, 41);
+    flex: 0.5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* _________container_________ */
+.container{
+    /* background-color: green; */
+    flex: 6;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 7px;
+    justify-content: space-around;
+    
+}
+.card{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 0px 0px 5px;
+}
+.card-header{
+    background-color: gray;
+    flex: 0.8;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card-body{
+    background-color: rgb(180, 164, 85);
+    flex: 2;
+}
+.card-footer{
+    background-color: plum;
+    flex: 0.7;
+    border-radius: 0px 0px 5px 5px;
+    
+}

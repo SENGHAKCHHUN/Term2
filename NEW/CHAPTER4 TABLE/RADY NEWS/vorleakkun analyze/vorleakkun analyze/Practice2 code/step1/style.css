@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+/* ______Nav___________ */
+nav{
+    background-color: rgb(227, 171, 190);
+    flex: 0.2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+
+}
+
+
+/* ________Header______________ */
+header{
+    display: flex;
+    flex: 0.2;
+    justify-content: flex-end;
+    
+
+}
+.header-left{
+    flex: 1;
+    background-color: purple;
+}
+.header-right{
+    flex: 1;
+    background-color: rgb(92, 31, 206);
+    
+}
+
+
+
+/* ______container___________ */
+
+
+.container{
+    flex: 3;
+    display: flex;
+    margin-top: 10px;
+
+}
+.aside-left{
+    flex: 0.7;
+   
+}
+.aside-center{
+    flex: 2;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+    
+
+}
+.center-top{
+    background-color: palevioletred;
+    flex: 0.8; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 7px solid purple;
+}
+.center-bottom{
+    background-color: bisque;
+    flex: 2;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 4px solid rgb(17, 11, 193);
+}
+
+.aside-right{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 10px;
+}
+.kmov{
+   /* background-color: palevioletred; */
+   flex: 0.8; 
+   
+}
+.sor{
+    background: orange;
+    flex: 2;
+    width:50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

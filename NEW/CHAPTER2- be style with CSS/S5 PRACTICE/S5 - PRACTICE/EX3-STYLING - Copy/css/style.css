@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0%;
+}
+div{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 30px;
+    border: none;
+    display: flex;
+
+}
+.btn-teal{
+    background-color: teal;
+    border-radius: 30px;
+    border: none;
+}
+.btn-orange{
+    background-color: orange;
+    border-radius: 30px;
+    border: none;
+}
+.btn-purple{
+    background-color: purple;
+    border-radius: 30px;
+    border: none;
+}
+body{
+    ::selection{
+        background-color: red;
+    }
+}
+:hover{
+    color: khaki;
+}

@@ -1,0 +1,26 @@
+@import "./component/variable";
+@import "./component/group";
+.btn-primary{
+    background: $btn-primary;
+    @include card;
+}
+.btn-secondary {
+    @include card;
+    background: $btn-secondary;
+}
+.btn-warning {
+    @include card;
+    background: $btn-warning;
+}
+.btn-success {
+    @include card;
+    background: $btn-success;
+}
+.btn-dark {
+    background: $btn-dark;
+    @include card;
+}
+.btn-danger {
+    background: $btn-danger;
+    @include card;
+}

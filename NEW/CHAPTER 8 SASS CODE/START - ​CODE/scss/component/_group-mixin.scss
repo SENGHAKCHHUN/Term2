@@ -1,0 +1,27 @@
+@mixin btn {
+    padding: 5px 20px;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@mixin format-center{
+    text: {
+        transform: uppercase;
+        decoration :none;
+    }
+    font-weight: bold;
+}
+
+@mixin centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin link-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

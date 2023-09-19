@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li{
+    margin-left: 10px;
+    padding: 5px;
+}
+*{
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+section{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(233, 225, 225);
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.sidebar-left{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(181, 176, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width:59%;
+    height: 300px;
+    background-color: rgb(181, 162, 162);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.sidebar-right{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(93, 72, 72);
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.banner-1{
+    background-color: rgb(230, 227, 227);
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-2{
+    background-color: rgb(209, 171, 171);
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-transform: lowercase;
+}
+.card{
+    width: 31%;
+    height: 135px;
+    color: white;
+    background: rgb(128, 60, 60);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 8px;
+}
+span{
+    background-color: black;
+    height: 10%;
+    padding: 10px;
+    border-radius: 10px 0px 0px 0px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+.left{
+    width: 33.3%;
+    height: 90px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 33.3%;
+    background-color: rgb(113, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 33.3%;
+    background-color: rgba(202, 159, 159, 0.969);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* TODO  */
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 4fr 1.5fr;
+    grid-template-areas: 
+    "nav header"
+    "nav main" 
+    "nav footer";
+}
+nav{
+    background: #86a3c3;
+    grid-area: nav;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background:#d8e0bb;
+    grid-area: header;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    ".card1 .card2 .card3"
+    ".card4 .card5 .card6" 
+    ".card7 .card8 .card9";
+    padding: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    background:#6b3074;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background:#7268a6;
+    
+}
+.card1{
+    grid-area: card1;
+    width: 280px;
+}
+.card2{
+    grid-area: card2;
+    width: 280px;
+}
+.card3{
+    grid-area: card3;
+    width: 280px;
+}
+.card4{
+    grid-area: card4;
+    width: 280px;
+}
+.card5{
+    grid-area: card5;
+    width: 280px;
+}
+.card6{
+    grid-area: card6;
+    width: 280px;
+}
+.card7{
+    grid-area: card7;
+    width: 280px;
+}
+.card8{
+    grid-area: card8;
+    width: 280px;
+}
+.card9{
+    grid-area: card9;
+    width: 280px;
+}
+
+footer{
+    grid-area: footer;
+    background: #b6cec7;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

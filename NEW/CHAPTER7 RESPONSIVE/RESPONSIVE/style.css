@@ -1,0 +1,126 @@
+/* @media (orientation:landscape) {
+    body{
+        background: orange;
+    }
+    h1::before{
+        content: "I'm in landscape";
+    }
+}
+@media (orientation:portrait) {
+    body{
+        background: rgb(25, 189, 0);
+    }
+    h1::before{
+        content: "I'm in portrait";
+        color: white;
+    }
+
+} */
+
+
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+/* Navbar style */
+nav {
+    background: #cf3535;
+}
+ul {
+    display: flex;
+    align-items: center;
+
+}
+li {
+    padding: 12px;
+}
+li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Container style */
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card {
+    background: #fff;
+    width: 23%;
+    padding: 10px;
+    height: 100px;
+}
+
+@media (max-width:1536px) and (min-width:1024px){
+    body{
+        background: orange;
+    
+    }
+}
+@media (min-width:720px) and (max-width:1024px){
+    body{
+        background: rgb(13, 255, 0);
+        .card {
+            width: 48%;
+        }
+    }
+    .container{
+        padding: 20px;
+    }
+    nav{
+        justify-content: center;
+    }
+    .navbar{
+        display: none;
+    }
+}
+@media (min-width:720px) and (max-width:1024px) and (orientation:portrait){
+    body{
+        background: rgb(13, 255, 0);
+        .card {
+            width: 100%;
+        }
+    }
+    .container{
+        padding: 20px;
+    }
+    nav{
+        justify-content: center;
+    }
+
+}
+@media (min-width:470px) and (max-width:720px){
+    body{
+        background: rgb(255, 0, 195);
+        .card {
+            width: 100%;
+        }
+    }
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+    nav{
+        justify-content: center;
+    }
+    li:nth-child(2),
+    li:nth-child(3),
+    li:nth-child(4) {
+        display: none;
+    }
+    .navbar{
+        color: white;
+        /* display: none; */
+    }
+}
+

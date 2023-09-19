@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 33.3%;
+    height: 90px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 33.3%;
+    background-color: rgb(113, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 33.3%;
+    background-color: rgba(202, 159, 159, 0.969);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,9 @@
+@import "./variable";
+@import "./group-mixin";
+@import "./nav";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }

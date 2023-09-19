@@ -1,0 +1,67 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border:none;
+    outline: none;
+}
+body {
+    display: flex;
+    height: 100vh;
+}
+aside {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    flex: 0.5;
+    gap: 15px;
+}
+
+.content {
+   background-color: pink;
+   flex-grow: 1;
+   
+}
+.group-home {
+    padding: 10px;
+    line-height: 35px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+
+}   
+.list-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.group-library {
+    padding: 10px;
+    line-height: 35px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+.group-sub {
+    padding: 10px;
+    line-height: 35px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+
+}
+.group-sub .list-group {
+    display: flex;
+    align-items: center;
+
+}
+.content {
+    
+}

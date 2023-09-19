@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: auto;
+}
+.container_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    background: pink;
+    width: 100vh;
+    height: 40vh;
+
+}
+.same{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    
+
+}
+.same-top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+    width: 70%;
+    
+}
+.same-last{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+.same input{
+    border: none;
+    border-bottom: 1px solid gray;
+    background: pink;
+}
+
+.email{
+    display: flex;
+    background: greenyellow;
+}
+.website-home{
+    display: flex;
+    background: blue;
+}

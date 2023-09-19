@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+map{
+    margin-top: 50px;
+}
+@import "./component/navbar";
+@import "./component/home";
+@import "./component/value";
+@import "./component/canteen";
+@import "./component/sport";
+@import "./component/aerobic";
+@import "./component/contact";
+@import "./component/footer";

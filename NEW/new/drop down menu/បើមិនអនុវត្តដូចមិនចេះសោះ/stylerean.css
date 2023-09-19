@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(photo.jpg);
+    background-size: cover;
+    background-position:top;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+.list-menu{
+    background: rgb(255, 151, 47);
+    text-align: center;
+}
+.list-menu ul{
+    display: inline-flex;
+    color: white;
+    list-style: none;
+}
+.list-menu ul li{
+   width: 150px;
+   margin: 10px;
+   padding: 10px;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+}
+.fa{
+    margin-right: 10px;
+}
+.list-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.bg , .list-menu ul li:hover{
+    background: rgb(29, 155, 1);
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
+}
+.list-menu .sub-meun-1 ul{
+    display: block;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: -20px;   
+}
+.sub-meun-1{
+    display: none;
+}
+.list-menu ul li:hover .sub-meun-1{
+    width: 150px;
+    display: block;
+    text-align: left;
+    position: absolute;
+}
+.list-menu ul li:hover .sub-meun-1 ul li{
+    margin-left: 40px;
+}
+.list-menu ul li:hover .sub-meun-1 ul li a{
+    font-size: 18px;
+    text-transform: none;
+}
+.sub-meun-2{
+    display: none;
+}
+.sub-meun-1 ul li:hover .sub-meun-2{
+    display: block;
+    background: none;
+}
+.sub-meun-1 ul li:hover .sub-meun-2 ul li{
+    background: #74f41e;
+    border-bottom: 5px solid gray;
+}

@@ -1,0 +1,56 @@
+@import "./group-mixin";
+@import "./variable";
+
+
+nav {
+    @include centered;
+    height: 10vh;
+    background: $sub-color1;
+    justify-content: space-between;
+}
+nav{
+    div{
+        img {
+    width: 70px;
+        }
+    }
+}
+  
+nav {
+    ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    }
+}
+  nav{
+     ul{ 
+        a {
+            @include btn;
+            background:$sub-color3;
+            text-decoration: none;
+            color: $sub-color2;
+        }
+    }
+    
+  }
+  
+nav {
+    ul {
+        a{
+          li {
+    list-style: none;
+          }
+        }
+    }
+  }
+  
+nav{
+     ul{
+         a:hover {
+        background: $sub-color3;
+        color: $sub-color5;
+         }
+    }
+}
+  

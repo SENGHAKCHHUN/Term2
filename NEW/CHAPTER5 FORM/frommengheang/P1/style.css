@@ -1,0 +1,51 @@
+*{
+    font-family: serif;
+    padding: 0px;
+    margin: 0;
+    
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    margin: auto;
+}
+.input1{
+    display: flex;
+    gap: 30px;  
+}
+.input2{
+    display: flex;
+    gap: 30px;
+}
+.input3{
+    display: flex;
+    gap: 39px;
+}
+.input4{
+    display: flex;
+    gap: 20px;
+}
+.user-role{
+    display: flex;
+    gap: 27px;
+    /* background: green; */
+    align-items: center;
+    
+}
+.input6{
+    display: flex;
+    gap:49px;
+    align-items: center;
+}
+.input7{
+    display: flex;
+    align-items: center;
+    
+}
+.input7 input{
+    margin: 5px;
+    padding: 3px 20px;
+}

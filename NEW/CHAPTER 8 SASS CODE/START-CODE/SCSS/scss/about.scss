@@ -1,0 +1,11 @@
+@import "./component/main";
+@import "./component/-navbar.scss";
+@import "./component/card";
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    gap: 10px;
+    flex-direction: column;
+}

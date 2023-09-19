@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgb(118, 160, 227);
+}
+form{
+    margin: auto;
+    width: 92vh;
+    height: 97vh;
+    border-radius: 5px 5px 0px 0px;
+}
+.form-header{
+    padding: 18px;
+    flex: 1;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(238, 238, 238);
+    border-radius: 10px 10px 0px 0px;
+}
+label{
+    color:rgb(116, 218, 220);
+    font-size: 19px;
+}
+.form-body{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+}
+.user-name{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.user-firstname
+.user-lastname{
+    display: flex;
+    flex-direction: column;
+}
+.user-firstname input ,.user-lastname input{
+    width: 43vh;
+}
+input{
+    height: 23px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+input[type="email"]{
+    width:99.9%;
+}
+.user-passwords{
+    display: flex;
+    gap: 13px;
+}
+.user-password 
+.user-confirm-password{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user-password input{
+    width: 43vh;
+}
+.user-confirm-password input{
+    width: 43.3vh;
+}
+.user-more-infos{
+    display: flex;
+    gap: 13px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.user-gender{
+    width: 43vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.user-genders{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.user-hobby{
+    width: 44vh;
+    display: flex;
+    flex-direction: column;
+}
+.user-hobbies{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.user-financial{
+    display: flex;
+    flex-direction: column;
+    width: 43vh;
+}
+.user-income{
+    display: flex;
+    flex-direction: column;
+    width: 44vh;
+}
+.range-income{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="range"]{
+    width: 32vh;
+}
+span{
+    width: 60px;
+    height: 23px;
+    background: rgb(116, 218, 220);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 44vh;
+    
+}
+input[type="file"]{
+   height: 30px;
+   border: none;
+}
+.user-age{
+    display: flex;
+    flex-direction: column;
+    width: 44vh;
+    justify-content: center;
+}
+.user-bio{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+}
+.form-footer{
+    height: 40px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: flex-end;
+    background: rgb(238, 238, 238);
+    border-radius:  0px 0px 10px 10px;
+}
+#create-btn{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(116, 218, 220);
+
+}

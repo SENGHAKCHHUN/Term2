@@ -1,0 +1,33 @@
+@import "./component/main";
+@import "./component/card";
+
+
+.main-container {
+    display: flex;
+    height: 90vh;
+}
+  
+aside {
+    @include link-center;
+    font-size: 20px;
+    font-weight: bold;
+    color: $sub-color5;
+    background: $main-color;
+    flex: 1;
+  }
+  
+main {
+    flex: 4;
+    padding: 20px;
+}
+  
+main {
+    h1 {
+        text: {
+            transform: uppercase;
+            decoration: underline;
+            align: center;
+        }
+        margin-bottom: 20px;
+   }
+}

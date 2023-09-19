@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* ___________Nav___________ */
+nav{
+    background-color: gray;
+    flex: 0.3;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-right{
+    align-self: center;
+}
+.nav-center{
+    align-self: flex-end;
+}
+
+
+/* ___________Container__________ */
+.container{
+    background-color: rgba(185, 203, 200, 0.447);
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* _______header__________ */
+header{
+    background-image: url(study.png);
+    flex: 2.5;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-head{
+    align-self: flex-end;
+}
+.header-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right{
+    
+}
+.footer-left{
+    
+}
+
+aside{
+    flex: 5;
+    display: flex;
+    width: 60%;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 60%;
+
+}
+.aside-left{
+    /* background-color: blanchedalmond; */
+    flex: 0.75;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.aside-right{
+    /* background-color: rgb(195, 180, 162); */
+    flex: 3;
+}
+.card1{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    margin-bottom: 7px;
+    flex: 0.8;
+    border-radius: 7px;
+
+   
+}
+.card-header{
+    background-color: aquamarine;
+    flex: 1;
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+}
+
+
+.card-body{
+    background-color: rgb(184, 119, 38);
+    flex: 1.8;
+    border-radius: 0px 0px 7px 7px;
+}
+.card2{
+    border: 1px solid;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.tittle1{
+    border-bottom: 1px solid;
+    flex: 0.5;
+}
+.tiitle2{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.h5{
+  margin: 6px;
+}
+.p{
+    margin: 6px;
+    
+}
+.button{
+    
+}
+
+.card{
+    border: 1px solid;
+    border-radius: 5px;
+   margin-bottom: 10px;
+   height: 17.5%;
+   display: flex;
+   align-items: center;
+ 
+}
+i{
+    flex: 0.4;
+    margin-left: 10px;
+}
+p{
+    flex: 5;
+}
+

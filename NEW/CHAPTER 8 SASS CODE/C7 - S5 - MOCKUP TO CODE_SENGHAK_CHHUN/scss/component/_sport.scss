@@ -1,0 +1,29 @@
+@import "./group-mixin";
+@import "./group-verible";
+#Sports{
+    margin: 13px;
+    margin-top: 90px;
+}
+.content-sport{
+    display: flex;
+    gap: 30px;
+    margin-left: 11%;
+}
+.box {
+    h3{
+        background: $gray;
+        border-radius: 10px 10px 0 0;
+        width: 235px;
+        height: 20px;
+        text-align: center;
+        padding-top: 9px;
+    }
+}
+
+.box {
+    img{
+        width: 235px;
+        height: 200px;
+        border-radius: 0 0 10px 10px;
+    }
+}

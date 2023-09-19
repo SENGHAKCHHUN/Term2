@@ -1,0 +1,7 @@
+@import "./variable";
+@import "./group_mixins";
+main {
+    background: $main-bg;
+    grid-area: main;
+    @include formated;
+}

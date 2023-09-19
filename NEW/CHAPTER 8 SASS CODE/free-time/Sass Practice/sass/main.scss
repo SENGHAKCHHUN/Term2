@@ -1,0 +1,34 @@
+@import "component/mixus";
+@import "component/variable";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background: $Third-color;
+    border-bottom: 2px solid $main-color;
+}
+nav ul{
+    @include format-center;
+    list-style: none;
+   
+}
+nav ul li{
+    background: $main-color;
+    padding: 10px;
+}
+.content{
+    @include format-center;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.aside-left,.aside-right{
+    height: 200px;
+    width: 50%;
+    background: $Third-color;
+    @include format-center;
+}

@@ -1,0 +1,33 @@
+
+.container{
+    margin: auto;
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+tr,
+th,
+td{
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+th{
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+caption{
+    background-color: orangered;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(190, 184, 184);
+}
+td:hover{
+    background-color: yellow;
+}

@@ -1,0 +1,22 @@
+h1, p, h3{
+    color: blue;
+}
+[href]{
+    text-decoration: none;
+}
+.test{
+    padding: 10px;
+}
+#pdw{
+    border: 3px solid green;
+}
+#test{
+    border: 3px solid red;
+}
+
+::selection{
+    background: orange;
+}
+p{
+    user-select: none;
+}

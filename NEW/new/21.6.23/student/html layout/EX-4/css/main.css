@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    flex: 5;
+    display: flex;
+}
+nav{
+    background-color: red;
+    flex: 0.5;
+}
+aside{
+    background-color: aqua;
+    flex: 1;
+}
+.content{
+    background-color: bisque;
+    flex: 3;
+}
+footer{
+    flex: 0.5;
+    background-color: red;
+}

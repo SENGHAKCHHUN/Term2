@@ -1,0 +1,53 @@
+@import "main";
+@import "./component/card";
+
+.main-container {
+    height: 90vh;
+    display: flex;
+}
+.main-container {
+    aside {
+        @include centered;
+        flex: 1;
+        background: $sub-color2;
+        color: $sub-color1;
+        font: {
+            weight: bold;
+            size: 25px;
+        }
+    }
+}
+.main-container{
+    main {
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+.main-container{
+    main {
+        .table {
+            @include centered;
+            width: 100%;
+            height: 30vh;
+            background: $sub-color2;
+            color: $sub-color1;
+            border-radius: 10px;
+            border: 1px;
+            box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+            font: {
+                weight: bold;
+                size: 25px;
+            }
+        }
+    }
+}
+h1 {
+    margin-top: 50px;
+    text: {
+        align: center;
+        transform: uppercase;
+        decoration: underline;
+    }
+}

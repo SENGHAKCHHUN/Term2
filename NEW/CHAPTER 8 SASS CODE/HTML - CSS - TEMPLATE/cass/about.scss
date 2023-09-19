@@ -1,0 +1,67 @@
+@import "main";
+@import "conponent/card";
+@import "conponent/variarble";
+
+header {
+    @include text-center;
+    height: 20vh;
+    padding: 10px;
+    flex-direction: column;
+}
+
+header,
+.about-us-content {
+    margin: 20px 0px;
+}
+
+
+
+header h1 {
+    @include formarted-text;
+    color: $teal-color;
+}
+.partners {
+    display: flex;
+    align-items: center;
+}
+
+.partners>img {
+    width: 75px;
+    margin: 10px 50px;
+}
+.about-us-container {
+    background: linear-gradient(to bottom,
+            $teal-color 0%,
+            $teal-color 50%,
+            $orange-color 50%,
+            $orange-color 100%);
+    padding: 0px 100px;
+    padding-bottom: 25px;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+header h1,
+.about-us-content h1 {
+    color: $maincolor;
+    margin: 10px;
+}
+
+.about-us-content h1 {
+    @include formated-text;
+}
+
+.about-us-content p {
+    text-align: justify;
+}
+
+.group-services {
+    display: flex;
+    margin: 20px 150px;
+    justify-content: space-evenly;
+}
+.bg-image{
+    width: 100%;
+}

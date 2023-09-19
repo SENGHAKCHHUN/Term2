@@ -1,0 +1,7 @@
+@import "./variable";
+@import "./group_mixins";
+header {
+    background: $header-bg;
+    grid-area: header;
+    @include formated;
+}

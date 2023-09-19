@@ -1,0 +1,49 @@
+@import "./group-mixin";
+@import "./group-verible";
+#PNValue{
+    margin: -90px 110px 10px 155px;  
+    padding-top: 20px;
+ }
+#PNValue {
+    img{
+        width: 70px;
+        margin-left: 38%;
+    }
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+h1:hover{
+     color: rgb(46, 147, 255);
+}
+.group-card{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card:nth-child(4){
+    margin-left: 16%;
+}
+.card{
+    background: $gray;
+    padding:10px;
+    border-radius: 15px;
+    width: 28%;
+    line-height: 22px;
+}
+.card:hover{
+    background: rgba(213, 213, 213, 0.255);
+    border-bottom: 3px solid rgb(255, 170, 0);
+    border-top: 3px solid rgb(255, 170, 0);
+    border-radius: 10px;
+}
+fa{
+    align-items: center;
+}
+.card{
+    h3{
+        text-align: center;
+    }
+}

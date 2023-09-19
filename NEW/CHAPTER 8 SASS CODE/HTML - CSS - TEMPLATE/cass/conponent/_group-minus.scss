@@ -1,0 +1,18 @@
+@import "variarble";
+
+@mixin text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin text{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin formarted-text {
+    text-transform: uppercase;
+    font-style: 25px;
+    font-weight: bold;
+    color: $teal-color;
+}
