@@ -74,6 +74,7 @@
     
 
 
+
 # -----
 # Ex5 - Array
 # input: ['banana', 'coconut']
@@ -88,6 +89,13 @@
 #   {'t': 1},
 # # ]
 
+def checkValue(list,value):
+    isTrue = True
+    for i in range(len(list)):
+        for key in list[i]:
+            if key == value:
+                isTrue = False
+    return isTrue
 def count(arr,value):
     count = 0
     for i in range(len(arr)):
@@ -97,14 +105,30 @@ def count(arr,value):
     return count    
 arr = eval(input("enter mk jam "))
 list = []
-obj = {}
 for i in range(len(arr)):
     for j in range(len(arr[i])):
+        obj = {}
+        if checkValue(list,arr[i][j]):
+            list.append(obj)
         obj[arr[i][j]] = count(arr,arr[i][j])
-list.append(obj)
 print(list)
 
-        
+
+# def count(arr,value):
+#     count = 0
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             if value == arr[i][j]:
+#                 count +=1
+#     return count    
+# arr = eval(input("enter mk jam "))
+# list = []
+# obj = {}
+# for i in range(len(arr)):
+#     for j in range(len(arr[i])):
+#         obj[arr[i][j]] = count(arr,arr[i][j])
+# list.append(obj)
+# print(list)
 
 
 

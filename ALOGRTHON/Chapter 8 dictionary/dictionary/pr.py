@@ -1,19 +1,15 @@
 # arr = [{'money' : [100,123,145]},{'money' : [10,14,200]}]
-# for key in range(len(arr)):
-#   for i in range (len(arr[key])):
-#     print(arr[key][i])  
-
+# newarr = []
 # for key in arr:
-#     for l in key:
-#         for i in range(len(key[l])):
-#             print(key[l][i])
+#   for value in key:
+#     for i in range(len(key[value])):
+#       newarr.append(key[value][i])
+# obj = {}
+# obj['number'] = newarr
+# print(obj)
 
-# arr = {}
-# arr['money'] = 1
-# arr['id'] = 10
-# arr['name'] = 'senghak'
-# arr['id'] = 0
-# print(arr)
+
+
 
 # ex1
 # def findTwoLetter(string):
@@ -35,6 +31,7 @@
 
 
 
+
 # ex2
 # def reverseText(string):
 #     result = ''
@@ -47,6 +44,7 @@
 #     word = reverseText(array[-1-i])
 #     list.append(word)
 # print(list)
+
 
 
 
@@ -67,6 +65,7 @@
 #             count +=1
 #             res += arr[i]['name']+' '
 # print(str(count) + ' student failed alogorithm: ' + res)
+
 
 
 
@@ -91,10 +90,84 @@
 #     print('No teacher in algorithm subject')
 
 
-sala = {'bmc': 128 , 'st': 100, 'kaka': 1}
-min = sala['bmc']
-for key in sala:
-    if sala[key] < min:
-        min = sala[key]
-print(min)
 
+
+# sala = {'bmc': 128 , 'st': 100, 'kaka': 1}
+# min = sala['bmc']
+# for key in sala:
+#     if sala[key] < min:
+#         min = sala[key]
+# print(min)
+
+
+
+
+# arr = ['banana','apple','pineapple']
+# newarr = []
+# for i in range(len(arr)):
+#     newarr.append(arr[-1-i])
+# print(newarr)
+
+
+
+
+# def reverseWord(word):
+#     res = ''
+#     for i in range(len(word)):
+#         res += word[-1-i]
+#     return res
+# for j in range(len(arr)):
+#     arr[j] = reverseWord(arr[j])
+# print(arr)
+
+
+
+
+# newarr = []
+# for vor in range(len(arr)):
+#     newarr.append(reverseWord(arr[-1-vor]))
+# print(newarr)
+
+
+
+
+# arr = [
+#     [1,2,3,4],
+#     [4,5,6,6],
+#     [7,8,9,9]
+# ]
+# i = 0
+# sum = 0
+# row = len(arr)
+# col = len(arr[0])  
+# for i in range(col):
+#     if i == 3:
+#         for j in range(row):
+#             sum += arr[j][i]
+#         print(sum)
+
+
+
+
+# new = []
+# for i in range(len(arr)):
+#     sum = 0
+#     for j in range(len(arr[i])):
+#         sum += arr[i][j]
+#     new.append(sum)
+# print(new)
+        
+def checkValue(word,arr2):
+    res = ''
+    for i in range(len(word)):
+        if word[i] == arr2[0]:
+            res += arr2[1]
+        else:
+            res += word[i]
+    return res       
+array1 = ['banana', 'coconut', 'mango']
+arr2 = ['a','*']
+list = []
+for i in range(len(array1)):
+    list.append(checkValue(array1[i],arr2))
+print(list)

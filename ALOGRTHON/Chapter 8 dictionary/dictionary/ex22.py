@@ -4,7 +4,7 @@ fruits = [
   {'btb': ['orange', 'banana']},
   {'sr': ['jackfruit','coconut', 'banana']}
 ]
-#1 - Which province has fruit the most?
+#1 - Which province has fruit the most?s
 max = 0
 for key in fruits:
   for value in key:
