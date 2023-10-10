@@ -17,9 +17,8 @@ def Decrease():
     global total 
     total = total - 1
     canvas.itemconfig(number, text = total)
-# btn = tk.Button(window, text='Increase', command=Increase)
-# btn.pack()
-# btn = tk.Button(window, text='Decrease', command=Decrease)
-# btn.pack()
-
+btn = tk.Button(window, text='Increase', command=Increase, width='10',height='1')
+btn.pack()
+btn = tk.Button(window, text='Decrease', command=Decrease)
+btn.pack()
 window.mainloop()

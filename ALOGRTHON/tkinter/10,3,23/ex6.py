@@ -1,8 +1,13 @@
 import tkinter as tk
 window = tk.Tk()
+from tkinter import messagebox as nsg
+def on_closing():
+    if nsg.askokcancel("Quit", "Do you want to quit?"):
+        window.destroy()
 window.title("draw shape")
 window.geometry("1024x600")
 window.resizable(0,0)
+window.protocol("WM_DELETE_WINDOW", on_closing)
 frame = tk.Frame(window, width=1024, height=600)
 frame.pack()
 canvas = tk.Canvas(frame, width=1024, height=600, bg='white')

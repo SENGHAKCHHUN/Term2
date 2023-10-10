@@ -80,8 +80,6 @@ canvas.pack()
 #     for j in range(1, 10):
 #         canvas.create_rectangle(10 + i * 100 , 10+j *100, 100+i * 100 , 100 +j * 100, fill='pink')
 # window.mainloop()
-
-
 total = 0
 canvas.create_rectangle(10, 10, 100,100, fill='red')
 result = canvas.create_text(55, 60, text="0", fill="black", font=("bold", 40))
@@ -90,16 +88,10 @@ def increment(even):
     global total
     total +=1
     canvas.itemconfig(result, text = total)
-# btnIncrement = tk.Button(frame, text='Increment', command=increment)
-# btnIncrement.pack()
-
 def decrement(even):
     global total
     total -=1
     canvas.itemconfig(result, text = total)
-# btnDecrement = tk.Button(frame, text='Decrement', command=increment)
-# btnDecrement.pack()
-
 window.bind('<Up>', increment)
 window.bind('<Down>', decrement)
 window.mainloop()

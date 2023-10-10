@@ -14,5 +14,4 @@ canvas.pack()
 # canvas.create_oval(410,410,500,500,fill='red')
 for i in range(5):
     canvas.create_oval(10+i*100, 10 +i *100, 100 + i *100 , 100 + i *100, fill='orange')
-    canvas.create_rectangle(410-i*100, 410+i*100, 500 -i *100, 500 -i *100,fill='red' )
 window.mainloop()
