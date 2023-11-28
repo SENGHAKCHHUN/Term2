@@ -1,0 +1,41 @@
+@keyframes slideToleft{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+h1{
+    width: 180px;
+    background: orange;
+    /* text-align: center;
+    animation-name: slideToleft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+    animation-direction: normal; */
+    animation-name: rotate;
+    animation-duration: 60s;
+    animation-delay: 0s;
+    
+    
+}
+h1:hover{
+    letter-spacing: 5px;
+    color: orange;
+    
+    /* transition-property: all; */
+    /* transition-duration: 0.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out; */
+}
